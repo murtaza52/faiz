@@ -1,4 +1,11 @@
 Faiz::Application.routes.draw do
+
+  get "main/index"
+
+  get "application/index"
+
+  root :to => "application#index"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

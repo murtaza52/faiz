@@ -1,0 +1,21 @@
+mkdir appname
+git init
+rails new . --git --database=postgresql
+Added gem unicorn and its config
+created Procfile 
+added gems for bootstrap and form 
+created user in db
+run rake db:create to create the db
+
+1) added gem sqlite and its config
+
+
+bootstrap - 
+1) rails g bootstrap:install and remove the html.erb
+
+routes
+1) delete the public/index.html
+2) created a new Main controller with index as root 
+3) Copied the controller action and generated page for application
+controller.
+4) Added route get

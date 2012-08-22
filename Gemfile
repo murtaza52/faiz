@@ -7,6 +7,7 @@ gem 'rails', '3.2.6'
 
 gem 'pg'
 
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -18,9 +19,25 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+  gem 'compass-rails', '~> 1.0.3'
+  gem 'zurb-foundation', '~> 3.0.1'
+
+  gem 'bootstrap-sass', '~> 2.0.4.0'
+
+  gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+  gem 'font-awesome-sass-rails'
+
 end
 
 gem 'jquery-rails'
+
+gem "slim-rails"
+
+gem 'simple_form'
+gem 'client_side_validations'
+gem 'client_side_validations-simple_form'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -29,7 +46,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
